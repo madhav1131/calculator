@@ -15,7 +15,5 @@ function ClearAc()
 }
 function DeleteOne() 
 {
-    let n = display.value.length;
-    display.value=display.value.slice(n);
-
+    display.value=display.value.slice(0,-1);
 }
